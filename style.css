@@ -1,0 +1,86 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #222;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 60px;
+  flex-direction: column;
+}
+
+/* --- 滚动文字动画 --- */
+.text-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.text-section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* --- 计算器样式 --- */
+.calculator-section {
+  flex-direction: column;
+  gap: 20px;
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.date-inputs input {
+  width: 80px;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.num-buttons {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  gap: 8px;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e0e0e0;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ccc;
+  transform: scale(1.05);
+}
+
+/* --- 结果显示 --- */
+#result-container {
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 26px;
+  color: #333;
+}
+
+/* --- 淡出动画 --- */
+.fade-out {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
