@@ -74,9 +74,9 @@ function animateNumber(targetEl, finalValue, duration = 1500) {
 
 const texts = {
   zh: {
-    title: "时间旅程",
+    title: "心刻",
     section1: "你曾经好奇，时间是怎样流逝的吗？",
-    section2: "我们都认为时间的流动是稳定，线性的<br>明年，与今年相比，是相同的长度<br>同样的365天，8,760小时，31,536,000秒……<br>但事实真的如此吗？",
+    section2: "我们都认为时间的流动是稳定，线性的<br>明年，与今年相比，是相同的长度<br>同样的365天，8,760小时，31,536,000秒......<br>但事实真的如此吗？",
     section3: "是，也不是。当我们说，一个声音比另一个声音响一倍，后者的能量其实比前者强10倍。<br>当我们说，一束光比另一束光亮一倍，其实后者的通量是前者的4倍......<br>这就是 韦伯-费希纳定律，它指出，外界刺激的强度与我们感受到的心理强度之间的关系，呈对数关系<br>也就是说，只有在外界刺激的强度以比例增加时，我们才能感受到与之前的差别<br>除了视觉与听觉，五感中的触觉，味觉，嗅觉，甚至是情绪，均有这个定律存在",
     section4: "不妨畅想一下，如果「时间」也是这样呢？",
     section5: "让我们把记事起第一年的记忆，当作标准的一年<br>那么第二年在我们的全部记忆中，只会占1/2的长度，也就是说，我们在第二年感受到的时间流动，只有第一年的一半<br>第三年就是1/3，第四年就是1/4......<br>当我们使用这个调和级数来形容感官中的时间，到我们年过八旬，也只不过活了区区五年<br>而在十一岁时，我们就已经过完一半人生了",
@@ -94,7 +94,7 @@ const texts = {
     futureDate: "这个日期还没到呢！"
   },
   en: {
-    title: "Journey of Time",
+    title: "Heartmark",
       section1: "Have you ever wondered how time flows?",
       section2: "We all think the passage of time is steady and linear<br>Next year is the same length as this year<br>The same 365 days, 8,760 hours, 31,536,000 seconds…<br>But is that really the case?",
       section3: "Yes and no. When we say one sound is twice as loud as another, its energy is actually ten times greater.<br>When we say one beam of light is twice as bright as another, its flux is actually four times higher…<br>This is the Weber–Fechner law, which states that the relationship between the intensity of an external stimulus and the psychological strength we perceive is logarithmic<br>In other words, we only notice a difference when the stimulus increases proportionally<br>Beyond sight and hearing, this law applies to touch, taste, smell, and even emotions.",
