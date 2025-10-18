@@ -1,3 +1,8 @@
+#my-text {
+  white-space: pre;
+}
+white-space: pre;
+
 body {
   font-family: "Helvetica Neue", sans-serif;
   margin: 0;
@@ -98,4 +103,42 @@ button:hover {
 }
 #lang-switch:hover {
   background-color: #ddd;
+}
+
+
+body.dark-bg {
+  background-color: #000;
+  transition: background-color 2s ease;
+}
+
+/* 结果数字样式 */
+#result {
+  color: #333; /* 初始颜色 */
+  font-size: 32px;
+  font-weight: bold;
+  transition: color 2s ease;
+}
+
+/* 数字变白（只影响数字部分，可以用 span 包裹数字） */
+#result span.number {
+  color: #333;
+  transition: color 2s ease;
+}
+#result.dark span.number {
+  color: #fff;
+}
+
+#scroll-hint {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 1.2s ease, transform 1.2s ease;
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#scroll-hint.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
