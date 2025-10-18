@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>时间旅程</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <section class="text-section" id="section1">
+      你曾经好奇，时间是怎样流逝的吗？
+    </section>
+    <section class="text-section" id="section2">
+      每一天都像是一颗沙粒，悄然堆积。
+    </section>
+    <section class="text-section" id="section3">
+      有时你会停下，回望那一路走来的足迹。
+    </section>
+    <section class="text-section" id="section4">
+      直到此刻，你已经在这个世界上存在了多久？
+    </section>
+
+
+  <!-- 天数计算器 -->
+  <section class="calculator-section">
+    <h2 id="calc-title">计算你来到这个世界的天数</h2>
+    <div class="date-inputs">
+      <input id="year" type="text" placeholder="年" readonly />
+      <input id="month" type="text" placeholder="月" readonly />
+      <input id="day" type="text" placeholder="日" readonly />
+    </div>
+    <div class="buttons">
+      <div class="num-buttons">
+        <button class="num">1</button>
+        <button class="num">2</button>
+        <button class="num">3</button>
+        <button class="num">4</button>
+        <button class="num">5</button>
+        <button class="num">6</button>
+        <button class="num">7</button>
+        <button class="num">8</button>
+        <button class="num">9</button>
+        <button class="num">0</button>
+      </div>
+          <button id="delete">删除</button>
+          <button id="confirm">确认</button>
+        </div>
+        <div id="result-container">
+          <p id="result"></p>
+        </div>
+      </section>
+  <button id="lang-switch">EN/中</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
