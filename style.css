@@ -84,3 +84,18 @@ button:hover {
   transform: scale(0.95);
   transition: opacity 0.8s ease, transform 0.8s ease;
 }
+
+#lang-switch {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 8px 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  background-color: #f0f0f0;
+}
+#lang-switch:hover {
+  background-color: #ddd;
+}
